@@ -1,0 +1,38 @@
+.fs-5{
+    font-size: 28px;
+}
+
+.fs-4{
+    font-size: 20px;
+}
+
+.bg-primary {
+    background-color: rgb(230, 145 , 56)   !important;
+}
+
+.text-marrom {
+     color: rgb(102, 33, 19) !important;
+}
+.text-marrom:hover {
+    color: rgb(161, 40, 19) !important;
+}
+
+body{
+    background-color: rgb(255, 229, 163);
+}
+
+#carouselExampleIndicators .carousel-item img {
+    max-height: 500px; /* Ajuste este valor conforme necessário */
+    width: auto; /* Mantém a proporção da imagem */
+    margin: auto; /* Centraliza a imagem se ela for menor que a largura da coluna */
+}
+
+.social-icons {
+    display: flex;
+    justify-content: flex-end; /* Alinha os ícones ao final (direita) */
+}
+
+.social-icons a {
+    font-size: 24px; /* Aumenta o tamanho dos ícones */
+    margin-left: 18px; /* Aumenta o espaçamento entre os ícones */
+}

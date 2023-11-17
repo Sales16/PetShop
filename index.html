@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Shop Agendamentos</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-1g navbar-dark bg-primary mb-4 fs-4">
+        <a class="navbar-brand fs-5 text-marrom" href="#">PetShop</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link text-marrom" href="#">Início <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-marrom" href="#">Agendar Serviço</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-marrom" href="#">Produtos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-marrom" href="#">Feedback</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-marrom" href="#">Login</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="banner">
+        <div class="banner-text">
+            <h1 class="display-4 text-center mb-3" ;>Agende o melhor cuidado para seu pet conosco!</h1>
+        </div>
+    </section>
+
+    <section class="container mt-4">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title text-primary">Escolha o Serviço</h5>
+                        <select class="form-control">
+                            <option value="banho">Banho</option>
+                            <option value="tosa">Tosa</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title text-primary">Escolha a Data</h5>
+                        <input type="date" class="form-control">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title text-primary">Escolha o Horário</h5>
+                        <input type="time" class="form-control">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container mt-4">
+        <div class="row">
+            <div class="col-md-4 d-flex align-items-start">
+                <button type="button" class="btn btn-success btn-block">Agendar</button>
+            </div>
+            <div class="col-md-4 ml-auto d-flex align-items-end">
+                <button type="button" class="btn btn-danger btn-block">Cancelar</button>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="container mt-4">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title text-primary">Benefícios em Destaque</h5>
+                        <!-- Adicione ícones e texto aqui -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title text-primary">Avaliações dos Clientes</h5>
+                        <!-- Adicione carrossel de feedbacks aqui -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container mt-4">
+        <h2 class="text-center mb-4 text-primary">Nossos Produtos</h2>
+        <div class="row">
+            <!-- Adicione produtos aqui -->
+        </div>
+    </section>
+
+    <section class="container mt-4">
+        <h2 class="text-center mb-4 text-primary">Galeria de Fotos</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/cachorro.png" class="d-block" alt="Foto 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/cachorro-2.png" class="d-block" alt="Foto 2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/cachorro-3.png" class="d-block" alt="Foto 3">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/gato.png" class="d-block" alt="Foto 4">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/gato-2.png" class="d-block" alt="Foto 5">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/ave.png" class="d-block" alt="Foto 6">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/ave2.png" class="d-block" alt="Foto 7">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/hamster.png" class="d-block" alt="Foto 8">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/hamster2.png" class="d-block" alt="Foto 9">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Anterior</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Próximo</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container mt-4">
+        <h2 class="text-center mb-4 text-primary">Galeria de Fotos</h2>
+        <div class="row">
+            <div class="col-md-4 mb-3">
+                <img src="img/cachorro.png" class="img-fluid" alt="Foto 1">
+            </div>
+            <div class="col-md-4 mb-3">
+                <img src="img/cachorro-2.png" class="img-fluid" alt="Foto 2">
+            </div>
+            <div class="col-md-4 mb-3">
+                <img src="img/cachorro-3.png" class="img-fluid" alt="Foto 2">
+            </div>
+            <div class="col-md-4 mb-3">
+                <img src="img/gato.png" class="img-fluid" alt="Foto 2">
+            </div>
+            <div class="col-md-4 mb-3">
+                <img src="img/gato-2.png" class="img-fluid" alt="Foto 2">
+            </div>
+            <div class="col-md-4 mb-3">
+                <img src="img/ave.png" class="img-fluid" alt="Foto 2">
+            </div>
+            <div class="col-md-4 mb-3">
+                <img src="img/ave2.png" class="img-fluid" alt="Foto 2">
+            </div>
+            <div class="col-md-4 mb-3">
+                <img src="img/hamster.png" class="img-fluid" alt="Foto 2">
+            </div>
+            <div class="col-md-4 mb-3">
+                <img src="img/hamster2.png" class="img-fluid" alt="Foto 2">
+            </div>
+        </div>
+    </section>
+
+    <section class="container mt-4">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title text-primary">Deixe seu Feedback</h5>
+                        <form>
+                            <div class="form-group">
+                                <label for="nome">Nome:</label>
+                                <input type="text" class="form-control" id="nome">
+                            </div>
+                            <div class="form-group">
+                                <label for="feedback">Seu Feedback:</label>
+                                <textarea class="form-control" id="feedback" rows="4"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Enviar Feedback</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-primary mt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link text-marrom" href="#">Sobre Nós</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-marrom" href="#">Política de Privacidade</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-marrom" href="#">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <div class="social-icons">
+                        <!-- Adicione ícones de redes sociais aqui -->
+                        <a href="#" class="text-marrom">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="text-marrom">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="#" class="text-marrom">
+                            <i class="fab fa-tiktok"></i>
+                        </a>
+                        <a href="#" class="text-marrom">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
